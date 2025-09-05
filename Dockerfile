@@ -15,4 +15,4 @@ COPY . .
 EXPOSE 8765
 
 # Run server
-CMD ["python", "server.py"]
+CMD ["python", "-u", "server.py"]
