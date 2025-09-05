@@ -3,7 +3,7 @@ import websockets
 from websockets import ClientConnection
 
 async def chat() -> None:
-    uri: str = "ws://localhost:8765"
+    uri: str = "ws://socket.mkmra.xyz:8765"
 
     async with websockets.connect(uri) as websocket:
         ws: ClientConnection = websocket
